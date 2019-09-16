@@ -1,0 +1,9 @@
+20190916  aag
+
+Creado un usuario en github (Antgonz16)
+Creado repositorio: ted con README.md y .gitignore (plantilla de java)
+
+Clonar el local    git clone (url)
+
+
+
