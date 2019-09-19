@@ -6,4 +6,44 @@ Creado repositorio: ted con README.md y .gitignore (plantilla de java)
 Clonar el local    git clone (url)
 
 
+COMANDOS UTILIZADOS:
+   1  apt install git
+    2  sudo apt install git
+    3  firefox
+   11  pwd
+   12  cd ~/
+   13  cd ~\
+   16  git clone https://github.com/Antgonz16/ted.git--> Obtenemos otro remoto en el local.
+   17  cd ed
+   18  cd ted
+   23  git status
+   24  git add d
+   25  git add Diario.txt 
+   26  git status
+   27  git config --global user.name Antgonz16
+   28  git config --global user.email antgon@alu.iesserpis.org
+   29  git commit -m "Diario.txt con datos de github y git"
+   30  git log
+   31  git status
+   32  git push
+   33  git config --global push.default simple
+
+git branch --> Vemos las diferentes ramas en los repositorios.
+git branch --v > Sirve para ver la versión del repositorio local.
+git checkout --> Cambiar la versión del repositorio.
+git checkout master --> Para actualizar la versión del repositorio.
+
+
+20190919
+
+   27  git config --global user.name Antgonz16
+   28  git config --global user.email antgon@alu.iesserpis.org
+   29  git config --global push.default simple
+       git add Diario.txt 
+   30  git commit -m "Diario.txt con datos de github y git" --> Es una descripción de lo que subimos al repositorio.
+   31  git log--> Muestra la lista de versiones.
+   32  git status--> Estado determinado de las versiones.
+   33  git push--> Se encarga de publicar en el remoto.
+   34  git diff--> Muestra todos los cambios añadidos.
+
 
