@@ -46,4 +46,14 @@ git checkout master --> Para actualizar la versión del repositorio.
    33  git push--> Se encarga de publicar en el remoto.
    34  git diff--> Muestra todos los cambios añadidos.
 
+20190923
+VirtualBox
+Serpis dam: 2048MB RAM, DISCO 20GB, 2 PROCESADORES
+
+sudo -i: Pasamos a root
+apt update--> Descargamos una serie de paquetes.
+apt full-upgrade--> Instalamos todos los paquetes que están disponibles.
+gcc -o holamundo (nombre de salida) holamundo.c (fichero a compilar)
+cat holamundo.c (Lee lo que hay dentro del programa)
+./holamundo (nombre de salida)--> Ejecuta el programa
 
