@@ -3,7 +3,7 @@
 Creado un usuario en github (Antgonz16)
 Creado repositorio: ted con README.md y .gitignore (plantilla de java)
 
-Clonar el local    git clone (url)
+Clonar el local    git clone (url) ---> En cada equipo que querramos tener.
 
 
 COMANDOS UTILIZADOS:
@@ -39,11 +39,16 @@ git checkout master --> Para actualizar la versión del repositorio.
    27  git config --global user.name Antgonz16
    28  git config --global user.email antgon@alu.iesserpis.org
    29  git config --global push.default simple
-       git add Diario.txt 
-   30  git commit -m "Diario.txt con datos de github y git" --> Es una descripción de lo que subimos al repositorio.
+
+       GIT ADD DIARIO.TXT 
+
+   30  GIT COMMIT -M "DIARIO.TXT CON DATOS DE GITHUB Y GIT" --> ES UNA DESCRIPCIÓN DE LO QUE SUBIMOS AL REPOSITORIO.
+
    31  git log--> Muestra la lista de versiones.
    32  git status--> Estado determinado de las versiones.
-   33  git push--> Se encarga de publicar en el remoto.
+
+   33  GIT PUSH--> SE ENCARGA DE PUBLICAR EN EL REMOTO. 
+
    34  git diff--> Muestra todos los cambios añadidos.
 
 20190923
@@ -56,4 +61,16 @@ apt full-upgrade--> Instalamos todos los paquetes que están disponibles.
 gcc -o holamundo (nombre de salida) holamundo.c (fichero a compilar)
 cat holamundo.c (Lee lo que hay dentro del programa)
 ./holamundo (nombre de salida)--> Ejecuta el programa
+gcc -E HolaMundo.c --> Resuelve las directrices de preprocesamiento.
+gcc -S HolaMundo.c -->
+
+20190926
+
+20190930
+
+Hemos creado un holamundo de Java y a la vez lo hemos compilado.
+Primero hemos escrito un HolaMundo siguiendo una sintaxís y después con un comando lo hemos compilado.
+
+20191010
+sudo apt install openjdk-8-jdk (Para instalar la version que queramos de Java).
 
