@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSuma", "CSuma\CSuma.csproj", "{AE6DD38A-63C0-4DB7-A764-0E32633C2EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6DD38A-63C0-4DB7-A764-0E32633C2EB0}.Debug|x86.ActiveCfg = Debug|x86
+		{AE6DD38A-63C0-4DB7-A764-0E32633C2EB0}.Debug|x86.Build.0 = Debug|x86
+		{AE6DD38A-63C0-4DB7-A764-0E32633C2EB0}.Release|x86.ActiveCfg = Release|x86
+		{AE6DD38A-63C0-4DB7-A764-0E32633C2EB0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+/home/antgon/Projects/CSuma/CSuma/bin/Debug/CSuma.exe
+/home/antgon/Projects/CSuma/CSuma/bin/Debug/CSuma.pdb
+/home/antgon/Projects/CSuma/CSuma/obj/x86/Debug/CSuma.csprojAssemblyReference.cache
+/home/antgon/Projects/CSuma/CSuma/obj/x86/Debug/CSuma.exe
+/home/antgon/Projects/CSuma/CSuma/obj/x86/Debug/CSuma.pdb
