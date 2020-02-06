@@ -1,0 +1,5 @@
+/home/antgon/Escritorio/ted/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.csprojAssemblyReference.cache
+/home/antgon/Escritorio/ted/CBingo/CBingo/CBingo/bin/Debug/CBingo.exe
+/home/antgon/Escritorio/ted/CBingo/CBingo/CBingo/bin/Debug/CBingo.pdb
+/home/antgon/Escritorio/ted/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.exe
+/home/antgon/Escritorio/ted/CBingo/CBingo/CBingo/obj/x86/Debug/CBingo.pdb
