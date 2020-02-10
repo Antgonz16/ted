@@ -1,0 +1,5 @@
+/home/antgon/Escritorio/ted/CSCalculadora/CSCalculadora/CSCalculadora/bin/Debug/CSCalculadora.exe
+/home/antgon/Escritorio/ted/CSCalculadora/CSCalculadora/CSCalculadora/bin/Debug/CSCalculadora.pdb
+/home/antgon/Escritorio/ted/CSCalculadora/CSCalculadora/CSCalculadora/obj/x86/Debug/CSCalculadora.csprojAssemblyReference.cache
+/home/antgon/Escritorio/ted/CSCalculadora/CSCalculadora/CSCalculadora/obj/x86/Debug/CSCalculadora.exe
+/home/antgon/Escritorio/ted/CSCalculadora/CSCalculadora/CSCalculadora/obj/x86/Debug/CSCalculadora.pdb
