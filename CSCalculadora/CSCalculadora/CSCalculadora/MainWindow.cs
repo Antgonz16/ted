@@ -1,8 +1,14 @@
 ﻿using System;
 using Gtk;
+using static System.Net.Mime.MediaTypeNames;
+using Application = Gtk.Application;
 
 public partial class MainWindow : Gtk.Window
 {
+    int contador;
+    float num1;
+    float num2;
+
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
         Build();
@@ -97,6 +103,13 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnButton14Clicked(object sender, EventArgs e)
     {
+        if (contador == 0)
+        {
+            String display = Pantalla.Text.ToString();
+            Pantalla.DeleteText(0, Pantalla.Text.Length);
+            Pantalla.InsertText(display + ",");
+            contador++;
+        }
     }
 
     protected void OnBCeroClicked(object sender, EventArgs e)
@@ -106,15 +119,30 @@ public partial class MainWindow : Gtk.Window
         Pantalla.InsertText(display+ "0");
     }
 
-    protected void OnButton10Clicked(object sender, EventArgs e)
+    protected void OnBIgualClicked(object sender, EventArgs e)
     {
     }
 
     protected void OnBSumaClicked(object sender, EventArgs e)
     {
+        num1 = Convert.ToSingle(Pantalla.Text);
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
     }
 
     protected void OnBVaciarClicked(object sender, EventArgs e)
     {
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
+        contador = 0;
+    }
+
+    protected void OnBCClicked(object sender, EventArgs e)
+    {
+        Pantalla.DeleteText(Pantalla.Text.Length - 1, Pantalla.Text.Length);
+
+        String display = Pantalla.Text.ToString();
+        if (!display.Contains(","))
+        {
+            contador = 0;
+        }
     }
 }

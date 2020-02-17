@@ -57,7 +57,7 @@ public partial class MainWindow
 
 	private global::Gtk.Button BCero;
 
-	private global::Gtk.Button button10;
+	private global::Gtk.Button BIgual;
 
 	private global::Gtk.Button BSuma;
 
@@ -349,14 +349,14 @@ public partial class MainWindow
 		w24.Expand = false;
 		w24.Fill = false;
 		// Container child hbox13.Gtk.Box+BoxChild
-		this.button10 = new global::Gtk.Button();
-		this.button10.WidthRequest = 55;
-		this.button10.CanFocus = true;
-		this.button10.Name = "button10";
-		this.button10.UseUnderline = true;
-		this.button10.Label = global::Mono.Unix.Catalog.GetString("=");
-		this.hbox13.Add(this.button10);
-		global::Gtk.Box.BoxChild w25 = ((global::Gtk.Box.BoxChild)(this.hbox13[this.button10]));
+		this.BIgual = new global::Gtk.Button();
+		this.BIgual.WidthRequest = 55;
+		this.BIgual.CanFocus = true;
+		this.BIgual.Name = "BIgual";
+		this.BIgual.UseUnderline = true;
+		this.BIgual.Label = global::Mono.Unix.Catalog.GetString("=");
+		this.hbox13.Add(this.BIgual);
+		global::Gtk.Box.BoxChild w25 = ((global::Gtk.Box.BoxChild)(this.hbox13[this.BIgual]));
 		w25.Position = 2;
 		w25.Expand = false;
 		w25.Fill = false;
@@ -388,10 +388,11 @@ public partial class MainWindow
 			this.Child.ShowAll();
 		}
 		this.DefaultWidth = 374;
-		this.DefaultHeight = 485;
+		this.DefaultHeight = 448;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 		this.BVaciar.Clicked += new global::System.EventHandler(this.OnBVaciarClicked);
+		this.BC.Clicked += new global::System.EventHandler(this.OnBCClicked);
 		this.BSiete.Clicked += new global::System.EventHandler(this.OnBSieteClicked);
 		this.BOcho.Clicked += new global::System.EventHandler(this.OnBOchoClicked);
 		this.BNueve.Clicked += new global::System.EventHandler(this.OnBNueveClicked);
@@ -406,7 +407,6 @@ public partial class MainWindow
 		this.BResta.Clicked += new global::System.EventHandler(this.OnBRestaClicked);
 		this.button14.Clicked += new global::System.EventHandler(this.OnButton14Clicked);
 		this.BCero.Clicked += new global::System.EventHandler(this.OnBCeroClicked);
-		this.button10.Clicked += new global::System.EventHandler(this.OnButton10Clicked);
 		this.BSuma.Clicked += new global::System.EventHandler(this.OnBSumaClicked);
 	}
 }

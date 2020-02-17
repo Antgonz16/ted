@@ -6,7 +6,7 @@
   <import>
     <widget-library name="../bin/Debug/CSCalculadora.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="374 485">
+  <widget class="Gtk.Window" id="MainWindow" design-size="374 448">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -75,6 +75,7 @@
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">C</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnBCClicked" />
                   </widget>
                   <packing>
                     <property name="Position">1</property>
@@ -395,14 +396,13 @@
                   </packing>
                 </child>
                 <child>
-                  <widget class="Gtk.Button" id="button10">
+                  <widget class="Gtk.Button" id="BIgual">
                     <property name="MemberName" />
                     <property name="WidthRequest">55</property>
                     <property name="CanFocus">True</property>
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">=</property>
                     <property name="UseUnderline">True</property>
-                    <signal name="Clicked" handler="OnButton10Clicked" />
                   </widget>
                   <packing>
                     <property name="Position">2</property>
