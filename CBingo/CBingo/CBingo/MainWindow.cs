@@ -10,10 +10,10 @@ public partial class MainWindow : Gtk.Window
     {
         Build();
         panel = new Panel(vbox1); 
-        BJugar.Clicked += delegate {
+        /*BJugar.Clicked += delegate {
             int numero = bombo.sacarBola();
            
-        };
+        };*/
     }
 
     protected void OnDeleteEvent(object sender, DeleteEventArgs a)
