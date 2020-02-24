@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{576F2515-7CAA-461A-8F63-DF31A6F073D6}|Default">
   <MonoDevelop.Ide.ItemProperties.CSCalculadora PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSCalculadora/Calculadora.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSCalculadora/MainWindow.cs">
     <Files>
       <File FileName="../../CBingo/CBingo/CBingo/Program.cs" Line="1" Column="1" />
-      <File FileName="CSCalculadora/MainWindow.cs" Line="126" Column="16" />
-      <File FileName="CSCalculadora/Calculadora.cs" Line="1" Column="1" />
+      <File FileName="CSCalculadora/Calculadora.cs" Line="6" Column="2" />
+      <File FileName="CSCalculadora/MainWindow.cs" Line="24" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSCalculadora" expanded="True">
             <Node name="CSCalculadora" expanded="True">
-              <Node name="Calculadora.cs" selected="True" />
+              <Node name="MainWindow.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -8,10 +8,20 @@ public partial class MainWindow : Gtk.Window
     int contador;
     float num1;
     float num2;
+    int contador1;
+    float result;
+    int opcion;
+    Calculadora operacion =new Calculadora();
 
     public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
         Build();
+        BSuma.ModifyBg(StateType.Normal, new Gdk.Color(120, 140, 33));
+        BResta.ModifyBg(StateType.Normal, new Gdk.Color(130, 150, 33));
+        BProducto.ModifyBg(StateType.Normal, new Gdk.Color(140, 160, 33));
+        BCociente.ModifyBg(StateType.Normal, new Gdk.Color(150, 170, 33));
+        BVaciar.ModifyBg(StateType.Normal, new Gdk.Color(160, 180, 33));
+
     }
 
     protected void OnDeleteEvent(object sender, DeleteEventArgs a)
@@ -39,11 +49,15 @@ public partial class MainWindow : Gtk.Window
         String display = Pantalla.Text.ToString();
         Pantalla.DeleteText(0, Pantalla.Text.Length);
         Pantalla.InsertText(display+ "9");
-
+    
     }
 
     protected void OnBCocienteClicked(object sender, EventArgs e)
     {
+        num1 = Convert.ToSingle(Pantalla.Text);
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
+        contador = 0;
+        opcion = 4;
     }
 
     protected void OnBCuatroClicked(object sender, EventArgs e)
@@ -72,6 +86,10 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBProductoClicked(object sender, EventArgs e)
     {
+        num1 = Convert.ToSingle(Pantalla.Text);
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
+        contador = 0;
+        opcion = 3;
     }
 
     protected void OnBUnoClicked(object sender, EventArgs e)
@@ -99,6 +117,10 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBRestaClicked(object sender, EventArgs e)
     {
+        num1 = Convert.ToSingle(Pantalla.Text);
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
+        contador = 0;
+        opcion = 2;
     }
 
     protected void OnButton14Clicked(object sender, EventArgs e)
@@ -121,12 +143,61 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnBIgualClicked(object sender, EventArgs e)
     {
+        num2 = Convert.ToSingle(Pantalla.Text);
+        Pantalla.DeleteText(0, Pantalla.Text.Length);
+        contador = 0;
+
+        switch(opcion)
+        {
+            case 1:
+                result = operacion.suma(num1, num2);
+                Pantalla.InsertText(Convert.ToString(result));
+                contador1++;
+                if(result>=1)
+                {
+                    break;
+                }
+                break;
+            case 2:
+                result = operacion.resta(num1, num2);
+                Pantalla.InsertText(Convert.ToString(result));
+                contador1++;
+                if(result>=1)
+                {
+                    break;
+                }
+                break;
+            case 3:
+                result = operacion.producto(num1, num2);
+                Pantalla.InsertText(Convert.ToString(result));
+                contador1++;
+                if (result>=1)
+                {
+                    break;
+                }
+                break;
+            case 4:
+                result = operacion.cociente(num1, num2);
+                Pantalla.InsertText(Convert.ToString(result));
+                contador1++;
+                if (result>=1)
+                {
+                    break;
+                }
+                break;
+
+
+
+        }
     }
 
     protected void OnBSumaClicked(object sender, EventArgs e)
     {
         num1 = Convert.ToSingle(Pantalla.Text);
         Pantalla.DeleteText(0, Pantalla.Text.Length);
+        contador = 0;
+        opcion = 1;
+
     }
 
     protected void OnBVaciarClicked(object sender, EventArgs e)

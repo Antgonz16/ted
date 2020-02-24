@@ -407,6 +407,7 @@ public partial class MainWindow
 		this.BResta.Clicked += new global::System.EventHandler(this.OnBRestaClicked);
 		this.button14.Clicked += new global::System.EventHandler(this.OnButton14Clicked);
 		this.BCero.Clicked += new global::System.EventHandler(this.OnBCeroClicked);
+		this.BIgual.Clicked += new global::System.EventHandler(this.OnBIgualClicked);
 		this.BSuma.Clicked += new global::System.EventHandler(this.OnBSumaClicked);
 	}
 }
